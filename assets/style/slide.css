@@ -1,0 +1,33 @@
+@keyframes banner{
+    25%{
+        background-image: url('../img/banner/principal/bn_tattoo_4.png');
+        background-position: center bottom;
+    }
+    50%{
+        background-image: url('../img/banner/principal/bn_capa_2.png');
+    }
+    75%{
+        background-image: url('../img/banner/principal/bn_tattoo_9.png');
+    }
+    100%{
+        background-image: url('../img/banner/principal/bn_tattoo_22.png');
+    }
+
+}
+
+@keyframes tattoo{
+    25%{
+        background-image: url('../img/banner/principal/bn_tattoo_15.png');
+    }
+    50%{
+        background-image: url('../img/banner/principal/bn_tattoo_3.png');
+    }
+    75%{
+        background-image: url('../img/banner/principal/bn_tattoo_12.png');
+        background-position: center bottom;
+    }
+    100%{
+        background-image: url('../img/banner/principal/bn_tattoo_2.png');
+    }
+
+}
