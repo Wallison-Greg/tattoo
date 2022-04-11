@@ -27,6 +27,11 @@ header{
     display: flex;
     max-width: 1000px;
 }
+main .container{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 header .container{
     justify-content: space-between;
@@ -143,11 +148,6 @@ nav a:hover{
     justify-content: center;
     color: white;
 }
-.about_us .container{
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 .about_us .body{
     display: flex;
     flex: 1;
@@ -182,3 +182,13 @@ nav a:hover{
     animation-iteration-count: infinite;
     animation-duration: 20s;
 }
+
+/*our services*/
+
+.our_services{
+    display: flex;
+    justify-content: center;
+    background-color: #181A1B;
+    margin-top: 30px;
+}
+
