@@ -15,19 +15,35 @@
 
 }
 
-@keyframes tattoo{
+@keyframes att{
     25%{
         background-image: url('../img/banner/principal/bn_tattoo_15.png');
     }
     50%{
-        background-image: url('../img/banner/principal/bn_tattoo_3.png');
+        background-image: url('../img/banner/piercing/bn_piercing_6.png');
     }
     75%{
         background-image: url('../img/banner/principal/bn_tattoo_12.png');
         background-position: center bottom;
     }
     100%{
-        background-image: url('../img/banner/principal/bn_tattoo_2.png');
+        background-image: url('../img/banner/piercing/bn_piercing_2.png');
+        background-position: center right;
     }
+}
 
+@keyframes tattoo{
+    25%{
+        background-image: url('../img/banner/principal/bn_tattoo_4.png');
+    }
+    50%{
+        background-image: url('../img/banner/principal/bn_tattoo_18.png');
+    }
+    75%{
+        background-image: url('../img/banner/principal/bn_tattoo_14.png');
+        background-position: center bottom;
+    }
+    100%{
+        background-image: url('../img/banner/principal/bn_tattoo_7.png');
+    }
 }
