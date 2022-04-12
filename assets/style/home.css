@@ -248,7 +248,9 @@ nav a:hover{
 }
 
 /*seção tattoo*/
-
+.tattoo{
+    margin-bottom: 30px;
+}
 .tattoo h3{
     font-size: 30px;
     font-family: var(--serv);
@@ -261,4 +263,20 @@ nav a:hover{
 .tattoo .desc{
     margin-left: 30px;
     margin-right: 0px;
+}
+
+/*seção tattoo cover*/
+
+.tattoo_cover{
+    background-color: #181A1B;
+}
+.tattoo_cover h3{
+    font-size: 30px;
+    font-family: var(--serv);
+}
+
+.tattoo_cover .slide{
+    background-image: url('../img/banner/cover/bn_tattoo_cover_4.jpg');
+    animation-name: tattoo_cover;
+    background-size: cover;
 }

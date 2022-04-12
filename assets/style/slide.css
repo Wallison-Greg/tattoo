@@ -47,3 +47,21 @@
         background-image: url('../img/banner/principal/bn_tattoo_7.png');
     }
 }
+
+@keyframes tattoo_cover{
+    25%{
+        background-image: url('../img/banner/cover/bn_tattoo_cover_3.jpg');
+        background-position: center bottom;
+    }
+    50%{
+        background-image: url('../img/banner/cover/bn_tattoo_cover.png');
+        background-repeat: no-repeat;
+    }
+    75%{
+        background-image: url('../img/banner/cover/bn_tattoo_cover_2.png');
+        background-position: center center;
+    }
+    100%{
+        background-image: url('../img/banner/cover/bn_tattoo_cover_4.jpg');
+    }
+}
