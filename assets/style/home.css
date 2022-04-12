@@ -325,3 +325,154 @@ nav a:hover{
     background-size: cover;
     background-position: center bottom;
 }
+
+/*seção map*/
+.map{
+    overflow: hidden;
+}
+.map .area_map{
+    width: 100vw;
+    height: 400px;
+    background-image: url('../img/map.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*seção rodape*/
+
+footer{
+    background-color: #181A1B;
+    display: flex;
+    justify-content: center;
+}
+footer .container{
+    flex-direction: column;
+}
+footer .inf_contact{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex: 1;
+    border-bottom: 1px solid #7c7c7c;
+}
+.inf_contact .widget-title-text{
+    color: #ADADAD;
+}
+.inf_contact .widget-title-bar{
+    background-color: var(--principal);
+}
+.inf_contact .contato,
+.inf_contact .endereco,
+.inf_contact .atendimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.contato .inf_text,
+.endereco .inf_text,
+.atendimento .inf_text{
+    max-width: 300px;
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 13px;
+    color: #ADADAD;
+    margin: 5px 0px 20px 0px;
+}
+.area_cont{
+    min-width: 300px;
+}
+.area_cont .desc_cont{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.area_cont .icon_cont{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #7c7c7c;
+}
+.area_cont .cont{
+    font-size: 14px;
+}
+.area_cont .cont a{
+    display: inline-flex;
+    text-decoration: none;
+    color: #ADADAD;
+}
+.area_cont .cont a:hover{
+    color: var(--principal);
+}
+.endereco .desc_endereco,
+.atendimento .horario{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    min-width: 300px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ADADAD;
+}
+.desc_endereco a{
+    text-decoration: none;
+    color: #ADADAD;
+}
+.desc_endereco a:hover{
+    color: var(--principal);
+}
+.desc_endereco .rua,
+.desc_endereco .bairro,
+.desc_endereco .cidade{
+    margin-bottom: 5px;
+}
+.atendimento .horario{
+    text-transform: capitalize;
+}
+.horario .day_sem{
+    display: flex;
+    margin-top: 15px;
+}
+.day_sem .day{
+    min-width: 33.5px;
+    margin-left: 10px;
+}
+.day_sem .hr{
+    padding-right: 15px;
+}
+.container .copy{
+    height: 40px;
+    color: #ADADAD;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy a{
+    text-decoration: none;
+    color: #ADADAD;
+}
+.copy a:hover{
+    color: var(--principal);
+}
+.atendimento .horario{
+    flex-direction: row;
+}
+.horario .cont_day{
+    border-right: 1px solid #7c7c7c;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+.horario .cont_day:last-child{
+    border-right: none;
+}
+.cont_day .day_sem:first-child{
+    margin-top: 0;
+}
