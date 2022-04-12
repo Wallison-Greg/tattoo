@@ -200,6 +200,9 @@ nav a:hover{
     display: flex;
     flex-direction: row;
 }
+.services .area_service{
+    display: flex;
+}
 .services .sec_service{
     flex: 1;
     display: flex;
@@ -334,7 +337,6 @@ nav a:hover{
     width: 100vw;
     height: 400px;
     background-image: url('../img/map.png');
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -475,4 +477,60 @@ footer .inf_contact{
 }
 .cont_day .day_sem:first-child{
     margin-top: 0;
+}
+
+
+/*responsividade*/
+
+@media (max-width: 800px){
+    
+    /*main*/
+    .services .area_service{
+        flex-direction: column;
+    }
+    .our_services .sec_service{
+        min-width: 45%;
+        margin-bottom: 10px;
+        border: none;
+    }
+
+    .services .sec_service:last-child{
+        border-right: none;
+    }
+    .body .desc{
+        max-width: 330px;
+        margin-left: 8px;
+        margin-right: 20px;
+    }
+    .body .slide{
+        max-width: 330px;
+        height: auto;
+        margin-right: 8px;
+    }
+    .tattoo .slide{
+        margin-left: 8px;
+        margin-right: 12px;
+    }
+    .tattoo .desc{
+        margin-right: 8px;
+    }
+    .piercing .slide{
+        margin-left: 8px;
+        margin-right: 12px;
+    }
+    .piercing .desc{
+        margin-right: 8px;
+    }
+
+    /*rodape*/ 
+
+    footer .inf_contact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container .copy{
+        width: 100vw;
+    }
 }
