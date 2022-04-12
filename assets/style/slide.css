@@ -65,3 +65,33 @@
         background-image: url('../img/banner/cover/bn_tattoo_cover_4.jpg');
     }
 }
+
+@keyframes piercing{
+    25%{
+        background-image: url('../img/banner/piercing/bn_piercing.png');
+    }
+    50%{
+        background-image: url('../img/banner/piercing/bn_piercing_10.png');
+    }
+    75%{
+        background-image: url('../img/banner/piercing/bn_piercing_3.png');
+    }
+    100%{
+        background-image: url('../img/banner/piercing/bn_piercing_9.png');
+    }
+}
+
+@keyframes design{
+    25%{
+        background-image: url('../img/banner/design/bn_design_tattoo_3.jpg');
+    }
+    50%{
+        background-image: url('../img/banner/design/bn_design_tattoo_4.jpg');
+    }
+    75%{
+        background-image: url('../img/banner/design/bn_design_tattoo.jpg');
+    }
+    100%{
+        background-image: url('../img/banner/design/bn_design_tattoo_2.jpg');
+    }
+}
