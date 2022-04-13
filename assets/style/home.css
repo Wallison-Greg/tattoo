@@ -531,6 +531,81 @@ footer .inf_contact{
     }
     
     .container .copy{
-        width: 100vw;
+        width: 95vw;
+    }
+}
+
+@media (max-width: 643px){
+
+     /*menu*/
+     
+     .menu .menu_open{
+        display: flex;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-left: 13vw;
+    }
+    nav ul:first-child{
+        margin-top: 50px;
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 50vw;
+        position: absolute;
+        z-index: 99;
+        right: 0px;
+        background-color: rgba(0, 0, 0, 0.87);
+        height: calc(100vh - 100px);
+        margin-right: 0px;
+    }
+    nav a{
+        border-bottom: none;
+        height: auto;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 4.8px 0px 4.8px 40px;
+    }
+    nav a:hover{
+        border-bottom: none;
+        color: var(--principal);
+    }
+
+    /*banner principal*/
+
+    .cont h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .cont p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*services*/
+
+    .about_us .body{
+        flex-direction: column;
+    }
+    .body .slide{
+        height: 322px;
+        margin: 0px;
+    }
+    .body .desc{
+        margin: 0px 0px 20px 0px;
+    }
+    .desc h3{
+        text-align: center;
+    }
+    .tattoo .slide,
+    .piercing .slide{
+        margin-bottom: 20px;
+    }
+
+    /*map*/
+
+    .map .area_map{
+        background-position: center;
     }
 }
