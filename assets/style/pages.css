@@ -1,0 +1,160 @@
+@import url('/assets/style/home.css');
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+.area_fotos{
+    display: flex;
+    flex: 1;
+}
+
+.area_fotos .foto{
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.area_fotos .foto:hover{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*fotos tattoo*/
+
+.tattoo_ft1{
+    background-image: url('../img/banner/principal/bn_tatoo.png');
+}
+.tattoo_ft2{
+    background-image: url('../img/banner/principal/bn_tattoo_2.png');
+}
+.tattoo_ft3{
+    background-image: url('../img/banner/principal/bn_tattoo_3.png');
+}
+.tattoo_ft4{
+    background-image: url('../img/banner/principal/bn_tattoo_4.png');
+}
+.tattoo_ft5{
+    background-image: url('../img/banner/principal/bn_tattoo_5.png');
+}
+.tattoo_ft6{
+    background-image: url('../img/banner/principal/bn_tattoo_6.png');
+}
+.tattoo_ft7{
+    background-image: url('../img/banner/principal/bn_tattoo_7.png');
+}
+.tattoo_ft8{
+    background-image: url('../img/banner/principal/bn_tattoo_8.png');
+}
+.tattoo_ft9{
+    background-image: url('../img/banner/principal/bn_tattoo_9.png');
+}
+.tattoo_ft10{
+    background-image: url('../img/banner/principal/bn_tattoo_10.png');
+}
+.tattoo_ft11{
+    background-image: url('../img/banner/principal/bn_tattoo_11.png');
+}
+.tattoo_ft12{
+    background-image: url('../img/banner/principal/bn_tattoo_12.png');
+}
+.tattoo_ft13{
+    background-image: url('../img/banner/principal/bn_tattoo_13.png');
+}
+.tattoo_ft14{
+    background-image: url('../img/banner/principal/bn_tattoo_14.png');
+}
+.tattoo_ft15{
+    background-image: url('../img/banner/principal/bn_tattoo_15.png');
+}
+.tattoo_ft16{
+    background-image: url('../img/banner/principal/bn_tattoo_16.png');
+}
+.tattoo_ft17{
+    background-image: url('../img/banner/principal/bn_tattoo_17.png');
+}
+.tattoo_ft18{
+    background-image: url('../img/banner/principal/bn_tattoo_18.png');
+}
+.tattoo_ft19{
+    background-image: url('../img/banner/principal/bn_tattoo_19.png');
+}
+.tattoo_ft20{
+    background-image: url('../img/banner/principal/bn_tattoo_20.png');
+}
+.tattoo_ft21{
+    background-image: url('../img/banner/principal/bn_tattoo_21.png');
+}
+.tattoo_ft22{
+    background-image: url('../img/banner/principal/bn_tattoo_22.png');
+}
+.tattoo_ft23{
+    background-image: url('../img/banner/principal/bn_tattoo_23.png');
+}
+.tattoo_ft24{
+    background-image: url('../img/banner/principal/bn_tattoo_24.png');
+}
+.tattoo_ft25{
+    background-image: url('../img/banner/principal/bn_tattoo_25.png');
+}
+.tattoo_ft26{
+    background-image: url('../img/banner/principal/bn_tattoo_26.png');
+}
+.tattoo_ft27{
+    background-image: url('../img/banner/principal/bn_tattoo_27.png');
+}
+.tattoo_ft28{
+    background-image: url('../img/banner/principal/bn_tattoo_28.png');
+}
+.tattoo_ft29{
+    background-image: url('../img/banner/principal/bn_tattoo_29.png');
+}
+.tattoo_ft30{
+    background-image: url('../img/banner/principal/bn_tattoo_30.png');
+}
+.tattoo_ft31{
+    background-image: url('../img/banner/principal/bn_tattoo_31.png');
+}
+.tattoo_ft32{
+    background-image: url('../img/banner/principal/bn_tattoo_32.png');
+}
+.tattoo_ft33{
+    background-image: url('../img/banner/principal/bn_tattoo_33.png');
+}
+.tattoo_ft34{
+    background-image: url('../img/banner/principal/bn_tattoo_34.png');
+}
+.tattoo_ft35{
+    background-image: url('../img/banner/principal/bn_tattoo_35.png');
+}
+.tattoo_ft36{
+    background-image: url('../img/banner/principal/bn_tattoo_36.png');
+}
+
+/*responsividade tablets*/
+
+@media (max-width: 800px){
+    .area_fotos{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 643px){
+    .area_fotos{
+        flex-direction: column;
+    }
+}
