@@ -143,6 +143,57 @@
     background-image: url('../img/banner/principal/bn_tattoo_36.png');
 }
 
+/*fotos piercing*/
+
+.pg_ft1{
+    background-image: url('../img/banner/piercing/bn_piercing.png');
+}
+.pg_ft2{
+    background-image: url('../img/banner/piercing/bn_piercing_2.png');
+}
+.pg_ft3{
+    background-image: url('../img/banner/piercing/bn_piercing_3.png');
+}
+.pg_ft4{
+    background-image: url('../img/banner/piercing/bn_piercing_4.png');
+}
+.pg_ft5{
+    background-image: url('../img/banner/piercing/bn_piercing_5.png');
+}
+.pg_ft6{
+    background-image: url('../img/banner/piercing/bn_piercing_6.png');
+}
+.pg_ft7{
+    background-image: url('../img/banner/piercing/bn_piercing_7.png');
+}
+.pg_ft8{
+    background-image: url('../img/banner/piercing/bn_piercing_8.png');
+}
+.pg_ft9{
+    background-image: url('../img/banner/piercing/bn_piercing_9.png');
+}
+.pg_ft10{
+    background-image: url('../img/banner/piercing/bn_piercing_10.png');
+}
+.pg_ft11{
+    background-image: url('../img/banner/piercing/bn_piercing_11.png');
+}
+.pg_ft12{
+    background-image: url('../img/banner/piercing/bn_piercing_12.png');
+}
+.pg_ft13{
+    background-image: url('../img/banner/piercing/bn_piercing_13.png');
+}
+.pg_ft14{
+    background-image: url('../img/banner/piercing/bn_piercing_14.jpg');
+}
+.pg_ft15{
+    background-image: url('../img/banner/piercing/bn_piercing_15.png');
+}
+.pg_ft16{
+    background-image: url('../img/banner/piercing/bn_piercing_16.jpg');
+}
+
 /*responsividade tablets*/
 
 @media (max-width: 800px){
